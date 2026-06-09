@@ -13,5 +13,24 @@ public class Room {
         this.floor = floor;
         this.status = "AVAILABLE";
     }
+
+    public int getRoomNumber()
+    { return roomNumber; }
+    public String getRoomType()
+    { return roomType; }
+    public double getPricePerNight()
+    { return pricePerNight; }
+    public int getFloor()
+    { return floor; }
+    public String getStatus()
+    { return status; }
+    public void setStatus(String status)
+    { this.status = status; }
+
+    public void displayInfo() {
+        System.out.println("Room " + roomNumber + " | Type: " + roomType +
+                " | Price: " + pricePerNight + "€ | Floor: " + floor +
+                " | Status: " + status);
+    }
     }
 
