@@ -49,7 +49,7 @@ public class Main {
                 } else if (type == 2) {
                     room = new DoubleRoom(number, price, floor, false);
                 } else if (type == 3) {
-                    room = new SuiteRoom(number, price, floor, 2, false);
+                    room = new SuitRoom(number, price, floor, 2, false);
                 } else {
                     room = new FamilyRoom(number, price, floor, 4, false);
                 }
