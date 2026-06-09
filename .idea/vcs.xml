@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/Projekt-SEW" vcs="Git" />
+=======
+>>>>>>> b39c7de08345135fe989f1090a04a9e504982c97
   </component>
 </project>
